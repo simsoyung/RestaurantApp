@@ -26,7 +26,7 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
     
     
     func setTableView(){
-        tableView.rowHeight = 200
+        tableView.rowHeight = 150
         tableView.delegate = self
         tableView.dataSource = self
         searchBar.delegate = self
@@ -50,7 +50,7 @@ class SearchViewController: UIViewController,UITableViewDelegate, UITableViewDat
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         var searchList: [Restaurant] = []
         for item in list {
-            if item.name.contains(searchBar.text!) "한식"{
+            if item.name.contains(searchBar.text!) || item.category.description.contains(searchBar.text!){
                 searchList.append(item)
             }
         }

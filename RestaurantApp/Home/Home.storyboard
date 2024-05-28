@@ -15,13 +15,64 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OtP-V7-2YR">
+                                <rect key="frame" x="40" y="167" width="75" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="WXH-5V-GJe"/>
+                                    <constraint firstAttribute="height" constant="35" id="dmx-dw-mWr"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4AL-ho-BLx">
+                                <rect key="frame" x="155" y="167" width="75" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="Ly3-YT-60L"/>
+                                    <constraint firstAttribute="width" constant="75" id="XRY-pr-RDH"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tx1-Lx-LwX">
+                                <rect key="frame" x="270" y="167" width="75" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="62j-S1-ef9"/>
+                                    <constraint firstAttribute="height" constant="35" id="km1-x0-VA8"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ptf-U8-Xl8">
+                                <rect key="frame" x="0.0" y="218" width="393" height="600"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="600" id="avb-4S-crF"/>
+                                </constraints>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ptf-U8-Xl8" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="GuL-qe-B61"/>
+                            <constraint firstItem="ptf-U8-Xl8" firstAttribute="top" secondItem="tx1-Lx-LwX" secondAttribute="bottom" constant="16" id="ITI-Ry-SMa"/>
+                            <constraint firstItem="ptf-U8-Xl8" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="QJP-eS-Jpw"/>
+                            <constraint firstItem="4AL-ho-BLx" firstAttribute="leading" secondItem="OtP-V7-2YR" secondAttribute="trailing" constant="40" id="S0J-KJ-omB"/>
+                            <constraint firstItem="ptf-U8-Xl8" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="UZ1-ti-ONP"/>
+                            <constraint firstItem="ptf-U8-Xl8" firstAttribute="top" secondItem="4AL-ho-BLx" secondAttribute="bottom" constant="16" id="dJE-pq-wE9"/>
+                            <constraint firstItem="OtP-V7-2YR" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="jZM-Ym-wMt"/>
+                            <constraint firstItem="ptf-U8-Xl8" firstAttribute="top" secondItem="OtP-V7-2YR" secondAttribute="bottom" constant="16" id="sxl-4T-9k3"/>
+                            <constraint firstItem="tx1-Lx-LwX" firstAttribute="leading" secondItem="4AL-ho-BLx" secondAttribute="trailing" constant="40" id="yrs-ww-ylJ"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="anp-Qv-mvY"/>
+                    <connections>
+                        <outlet property="categoryButton" destination="tx1-Lx-LwX" id="tTg-He-6KM"/>
+                        <outlet property="homeTableView" destination="ptf-U8-Xl8" id="Gzy-hj-dk4"/>
+                        <outlet property="priceDownButton" destination="4AL-ho-BLx" id="i6g-5F-fH6"/>
+                        <outlet property="priceUpButton" destination="OtP-V7-2YR" id="QME-76-HlK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="48" y="-2"/>
+            <point key="canvasLocation" x="635.87786259541986" y="-2.1126760563380285"/>
         </scene>
     </scenes>
     <resources>

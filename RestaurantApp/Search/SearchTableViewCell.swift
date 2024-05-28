@@ -31,9 +31,10 @@ class SearchTableViewCell: UITableViewCell {
         let url = URL(string: data.image)
         mainImage.kf.setImage(with: url)
         mainImage.contentMode = .scaleAspectFill
+        mainImage.layer.cornerRadius = 20
         nameLabel.text = data.name
         subLabel.text = data.address
-        
+        priceLabel.text = data.infoPrice
         
     }
     

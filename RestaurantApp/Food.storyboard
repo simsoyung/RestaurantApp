@@ -3,14 +3,15 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="8OQ-TV-aKF">
             <objects>
                 <navigationController id="PGi-qo-Ab2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="da5-uP-csG"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" selectedImage="homekit" id="da5-uP-csG"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nvy-Os-gxY">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -43,11 +44,13 @@
             </objects>
             <point key="canvasLocation" x="1701" y="-25"/>
         </scene>
-        <!--Item-->
+        <!--Search-->
         <scene sceneID="oIc-Yb-3Du">
             <objects>
                 <navigationController id="QQx-eS-eBd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="kou-jS-2pF"/>
+                    <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="kou-jS-2pF">
+                        <imageReference key="selectedImage" image="magnifyingglass" catalog="system" symbolScale="default"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aVW-vG-2pt">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -66,6 +69,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="m23-Ah-xzg" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wam-sL-h6g">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -79,4 +83,8 @@
             <point key="canvasLocation" x="136.64122137404578" y="3.5211267605633805"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="homekit" catalog="system" width="128" height="104"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+    </resources>
 </document>
