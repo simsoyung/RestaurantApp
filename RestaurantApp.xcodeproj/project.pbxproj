@@ -13,6 +13,18 @@
 		465A42A12C05DE7A004FECFC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 465A42A02C05DE7A004FECFC /* Base */; };
 		465A42A32C05DE80004FECFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 465A42A22C05DE80004FECFC /* Assets.xcassets */; };
 		465A42A62C05DE80004FECFC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 465A42A52C05DE80004FECFC /* Base */; };
+		465A42AE2C05DF69004FECFC /* Food.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465A42AD2C05DF69004FECFC /* Food.storyboard */; };
+		465A42B02C05E04A004FECFC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465A42AF2C05E04A004FECFC /* Home.storyboard */; };
+		465A42B22C05E055004FECFC /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465A42B12C05E055004FECFC /* Search.storyboard */; };
+		465A42B42C05E0DB004FECFC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465A42B32C05E0DB004FECFC /* HomeViewController.swift */; };
+		465A42B62C05E0ED004FECFC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465A42B52C05E0ED004FECFC /* SearchViewController.swift */; };
+		465A42BC2C05E15B004FECFC /* Extension+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465A42BB2C05E15B004FECFC /* Extension+.swift */; };
+		465A42C12C05E1FD004FECFC /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465A42BF2C05E1FD004FECFC /* SearchTableViewCell.swift */; };
+		465A42C22C05E1FD004FECFC /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 465A42C02C05E1FD004FECFC /* SearchTableViewCell.xib */; };
+		465A42C52C05E21F004FECFC /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465A42C32C05E21F004FECFC /* HomeTableViewCell.swift */; };
+		465A42C62C05E21F004FECFC /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 465A42C42C05E21F004FECFC /* HomeTableViewCell.xib */; };
+		465A42C82C05E3C0004FECFC /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465A42C72C05E3C0004FECFC /* Restaurant.swift */; };
+		465A42CB2C05E3F9004FECFC /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 465A42CA2C05E3F9004FECFC /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,17 @@
 		465A42A22C05DE80004FECFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		465A42A52C05DE80004FECFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		465A42A72C05DE80004FECFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465A42AD2C05DF69004FECFC /* Food.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Food.storyboard; sourceTree = "<group>"; };
+		465A42AF2C05E04A004FECFC /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		465A42B12C05E055004FECFC /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		465A42B32C05E0DB004FECFC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		465A42B52C05E0ED004FECFC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		465A42BB2C05E15B004FECFC /* Extension+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+.swift"; sourceTree = "<group>"; };
+		465A42BF2C05E1FD004FECFC /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		465A42C02C05E1FD004FECFC /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
+		465A42C32C05E21F004FECFC /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		465A42C42C05E21F004FECFC /* HomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		465A42C72C05E3C0004FECFC /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Restaurant.swift; path = ../../../Asset/Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465A42CB2C05E3F9004FECFC /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +80,11 @@
 		465A42982C05DE7A004FECFC /* RestaurantApp */ = {
 			isa = PBXGroup;
 			children = (
+				465A42BE2C05E183004FECFC /* Search */,
+				465A42BD2C05E16B004FECFC /* Home */,
+				465A42BB2C05E15B004FECFC /* Extension+.swift */,
+				465A42AD2C05DF69004FECFC /* Food.storyboard */,
+				465A42C72C05E3C0004FECFC /* Restaurant.swift */,
 				465A42992C05DE7A004FECFC /* AppDelegate.swift */,
 				465A429B2C05DE7A004FECFC /* SceneDelegate.swift */,
 				465A429D2C05DE7A004FECFC /* ViewController.swift */,
@@ -65,6 +94,28 @@
 				465A42A72C05DE80004FECFC /* Info.plist */,
 			);
 			path = RestaurantApp;
+			sourceTree = "<group>";
+		};
+		465A42BD2C05E16B004FECFC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				465A42AF2C05E04A004FECFC /* Home.storyboard */,
+				465A42B32C05E0DB004FECFC /* HomeViewController.swift */,
+				465A42C32C05E21F004FECFC /* HomeTableViewCell.swift */,
+				465A42C42C05E21F004FECFC /* HomeTableViewCell.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		465A42BE2C05E183004FECFC /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				465A42B12C05E055004FECFC /* Search.storyboard */,
+				465A42B52C05E0ED004FECFC /* SearchViewController.swift */,
+				465A42BF2C05E1FD004FECFC /* SearchTableViewCell.swift */,
+				465A42C02C05E1FD004FECFC /* SearchTableViewCell.xib */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +134,9 @@
 			dependencies = (
 			);
 			name = RestaurantApp;
+			packageProductDependencies = (
+				465A42CA2C05E3F9004FECFC /* Kingfisher */,
+			);
 			productName = RestaurantApp;
 			productReference = 465A42962C05DE7A004FECFC /* RestaurantApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +165,9 @@
 				Base,
 			);
 			mainGroup = 465A428D2C05DE7A004FECFC;
+			packageReferences = (
+				465A42C92C05E3F9004FECFC /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 465A42972C05DE7A004FECFC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,7 +183,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				465A42A32C05DE80004FECFC /* Assets.xcassets in Resources */,
+				465A42B02C05E04A004FECFC /* Home.storyboard in Resources */,
+				465A42C62C05E21F004FECFC /* HomeTableViewCell.xib in Resources */,
 				465A42A62C05DE80004FECFC /* Base in Resources */,
+				465A42AE2C05DF69004FECFC /* Food.storyboard in Resources */,
+				465A42C22C05E1FD004FECFC /* SearchTableViewCell.xib in Resources */,
+				465A42B22C05E055004FECFC /* Search.storyboard in Resources */,
 				465A42A12C05DE7A004FECFC /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +200,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465A42B62C05E0ED004FECFC /* SearchViewController.swift in Sources */,
 				465A429E2C05DE7A004FECFC /* ViewController.swift in Sources */,
+				465A42BC2C05E15B004FECFC /* Extension+.swift in Sources */,
 				465A429A2C05DE7A004FECFC /* AppDelegate.swift in Sources */,
 				465A429C2C05DE7A004FECFC /* SceneDelegate.swift in Sources */,
+				465A42B42C05E0DB004FECFC /* HomeViewController.swift in Sources */,
+				465A42C52C05E21F004FECFC /* HomeTableViewCell.swift in Sources */,
+				465A42C12C05E1FD004FECFC /* SearchTableViewCell.swift in Sources */,
+				465A42C82C05E3C0004FECFC /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +365,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +374,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sesac.RestaurantApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,8 +396,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +405,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sesac.RestaurantApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -361,6 +437,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		465A42C92C05E3F9004FECFC /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		465A42CA2C05E3F9004FECFC /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 465A42C92C05E3F9004FECFC /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 465A428E2C05DE7A004FECFC /* Project object */;
 }
